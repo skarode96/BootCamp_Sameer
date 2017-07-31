@@ -1,0 +1,25 @@
+1) Write an application for user and cinema management as follows :
+
+   classes to be created :
+   1) User
+	uid:int
+	name:String 
+	age:int
+	rating:int
+   2) MovieService
+ 	 buy(User user,double price)
+ 	 watch(User user)
+
+   3) Cinema (main class)
+
+   TBD - MovieService will throw exception in case of if 
+         a) price is invalid
+         a) price is below Rs/- 2000
+         a) user age is invalid (different one)
+         b) user age is less then 10 (different one)
+         c) user age is less then 20 (different one)
+         d) user rating is below 3
+  
+	(all exceptions are of type checked only)	
+  
+	otherwise will allow user to enjoy movie with popcorn.      	

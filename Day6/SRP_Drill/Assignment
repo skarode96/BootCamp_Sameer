@@ -1,0 +1,44 @@
+1) Refactor EmailService class so that it follows SRP using IDE.
+
+2) Write a class EmployeeService as follows :
+
+   fields :
+	empId:int
+	name:String
+	salary:double
+	phone:String
+	desig:String
+   methods:
+	all get/set pairs
+	updateSalary()
+	eligibleForPromotion()
+	calculateTDS()
+	changeProject()
+	changeDesignation()			
+	 
+  TBD - Check whether this class breaks SRP if yes, then refactor
+	this class among multiple classes with correct and meanigful
+   	names and move corresponding methods in the right classes.
+==================================================================
+Solution : Check Refactoring Drill
+===================================================================
+3) Write a program which will hold salary of 10 employees 
+   and will calculate their hra(30%) of salary and display 
+   on console.
+
+4) Write a program which will hold salary of 10 employees 
+   and will increase(by 20%) of those employees where salary 
+   is less then 20000.00
+==================================================================
+Solution : Please check Iterator Asssignment
+===================================================================
+5) Write a program which will hold Car class 20-30 objects in 
+   a collection of right type and we have to display those cars
+   on top which are having higher price.
+   
+   Plus user should be able to show cars sorted by ids.
+   Plus user should be able to show cars sorted by brand.
+   Plus user should not be able to save duplicate cars.
+   ==================================================
+   Solution : solution is there in Car_Assignment
+   ====================================================
