@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class PrimeGenerator {
 
     public static ArrayList<Integer> generate(int lowerBound, int upperBound) {
-        ArrayList<Integer> primeList = new ArrayList<Integer>(100);
+        ArrayList<Integer> primeList = new ArrayList<>(100);
         boolean flag;
         for (int n = lowerBound; n < upperBound; n++) {
             flag = true;
