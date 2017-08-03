@@ -11,7 +11,6 @@ public class NewsServlet extends javax.servlet.http.HttpServlet {
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter printWriter = response.getWriter();
-        printWriter.write(" !!! Breaking News !!!<br>");
-        printWriter.write("Missile launched from India to Pakistan");
+        printWriter.write("Watching News");
     }
 }

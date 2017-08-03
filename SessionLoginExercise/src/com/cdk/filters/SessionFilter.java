@@ -18,10 +18,9 @@ public class SessionFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         HttpSession session = ((HttpServletRequest)servletRequest).getSession();
         if((Boolean) session.getAttribute("Login_Status") == false){
-            servletResponse.getWriter().write("<h1 style='color:Black'>Redirecting to login page</br></h1>");
-            servletResponse.getWriter().write("<a href='/Hotstar'>login</a>");
-//            RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("/index.html");
-//            requestDispatcher.forward(servletRequest,servletResponse);
+            servletResponse.getWriter().write("<h1 style='color:Black'>Redirecting to login page</h1>");
+            RequestDispatcher requestDispatcher = servletRequest.getRequestDispatcher("/index.html");
+            requestDispatcher.forward(servletRequest,servletResponse);
         }else {
             filterChain.doFilter(servletRequest, servletResponse);
         }
