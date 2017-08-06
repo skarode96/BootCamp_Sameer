@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employee1"  class="com.cdk.sameer.Employee">
+        <constructor-arg value="12"/>
+        <constructor-arg value="Sameer"></constructor-arg>
+        <property name="name" value="Raj"></property>
+    </bean>
+
+
+    <bean id="employee2"  class="com.cdk.sameer.Employee">
+        <constructor-arg value="11"></constructor-arg>
+        <constructor-arg value="Mukta"> </constructor-arg>
+    </bean>
+
+    <bean id="employee3"  class="com.cdk.sameer.Employee">
+        <constructor-arg value="Mahesh"></constructor-arg>
+        <constructor-arg value="11"> </constructor-arg>
+        <property name="id" value="122"></property>
+    </bean>
+
+</beans>
