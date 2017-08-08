@@ -2,18 +2,10 @@ package com.example.controller;
 
 import com.example.dao.CarDAO;
 import com.example.model.Car;
-import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.converter.json.GsonFactoryBean;
-import org.springframework.http.converter.json.GsonHttpMessageConverter;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
-
-import javax.xml.bind.JAXB;
-
-import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON;
 import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON_VALUE;
 import static org.springframework.util.MimeTypeUtils.APPLICATION_XML_VALUE;
 

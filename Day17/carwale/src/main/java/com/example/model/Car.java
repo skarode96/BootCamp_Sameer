@@ -1,8 +1,7 @@
 package com.example.model;
 
-import org.codehaus.jackson.annotate.JacksonAnnotation;
+//import org.codehaus.jackson.annotate.JacksonAnnotation;
 
-import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
