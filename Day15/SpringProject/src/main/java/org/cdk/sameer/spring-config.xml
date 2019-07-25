@@ -8,19 +8,19 @@
 
     <context:component-scan base-package="org.cdk.sameer"></context:component-scan>
 
-    <!--<bean id="employee1"  class="com.cdk.sameer.Employee">-->
+    <!--<bean id="employee1"  class="com.companypany.sameer.Employee">-->
         <!--<constructor-arg value="12"/>-->
         <!--<constructor-arg value="Sameer"></constructor-arg>-->
         <!--<property name="name" value="Raj"></property>-->
     <!--</bean>-->
 
 
-    <!--<bean id="employee2"  class="com.cdk.sameer.Employee">-->
+    <!--<bean id="employee2"  class="com.companypany.sameer.Employee">-->
         <!--<constructor-arg value="11"></constructor-arg>-->
         <!--<constructor-arg value="Mukta"> </constructor-arg>-->
     <!--</bean>-->
 
-    <!--<bean id="employee3"  class="com.cdk.sameer.Employee">-->
+    <!--<bean id="employee3"  class="com.companypany.sameer.Employee">-->
         <!--<constructor-arg value="Mahesh"></constructor-arg>-->
         <!--<constructor-arg value="11"> </constructor-arg>-->
         <!--<property name="id" value="122"></property>-->

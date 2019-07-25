@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>RandomDataServlet</servlet-name>
-        <servlet-class>com.cdk.servlets.RandomDataServlet</servlet-class>
+        <servlet-class>com.company.servlets.RandomDataServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>RandomDataServlet</servlet-name>

@@ -1,6 +1,6 @@
-package com.cdk.person;
+package com.company.person;
 
-import com.cdk.Gender.Gender;
+import com.company.Gender.Gender;
 
 import java.util.ArrayList;
 import java.util.List;

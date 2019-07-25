@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>A</servlet-name>
-        <servlet-class>com.cdk.servlets.CricketServlet</servlet-class>
+        <servlet-class>com.company.servlets.CricketServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>A</servlet-name>

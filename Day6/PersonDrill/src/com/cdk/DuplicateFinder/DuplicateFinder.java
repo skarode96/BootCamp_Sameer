@@ -1,6 +1,6 @@
-package com.cdk.DuplicateFinder;
+package com.company.DuplicateFinder;
 
-import com.cdk.person.Person;
+import com.company.person.Person;
 
 import java.util.HashMap;
 import java.util.List;

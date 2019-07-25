@@ -1,8 +1,8 @@
-package com.cdk.test;
+package com.company.test;
 
-import com.cdk.DuplicateFinder.DuplicateFinder;
-import com.cdk.Gender.Gender;
-import com.cdk.person.Person;
+import com.company.DuplicateFinder.DuplicateFinder;
+import com.company.Gender.Gender;
+import com.company.person.Person;
 import com.sun.org.apache.bcel.internal.generic.DUP;
 import org.junit.Test;
 

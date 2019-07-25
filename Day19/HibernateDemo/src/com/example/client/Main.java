@@ -1,7 +1,6 @@
 package com.example.client;
 
-import com.cdk.dao.CourseDAO;
-import com.cdk.entity.Course;
+import com.company.dao.CourseDAO;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
